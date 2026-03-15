@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from 'react';
 import { useCart } from '../../lib/CartContext';
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight, Tag } from 'lucide-react';
