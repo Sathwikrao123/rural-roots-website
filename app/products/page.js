@@ -148,7 +148,7 @@ export default function Products() {
         <div style={{ position:'absolute', top:-60, right:-60, width:300, height:300, borderRadius:'50%', background:'rgba(245,200,66,0.06)', border:'1px solid rgba(245,200,66,0.1)' }} />
         <p style={{ fontSize:11, fontWeight:700, letterSpacing:'0.18em', color:'#d4870a', textTransform:'uppercase', marginBottom:12, animation:'slideUp 0.5s both' }}>BROWSE OUR COLLECTION</p>
         <h1 style={{ fontFamily:'var(--font-playfair)', fontSize:'clamp(2rem,4vw,3rem)', color:'white', marginBottom:14, animation:'slideUp 0.5s 0.1s both' }}>Farm Fresh Products</h1>
-        <p style={{ color:'rgba(255,255,255,0.6)', fontSize:'1rem', animation:'slideUp 0.5s 0.2s both' }}>Pure, natural and sourced directly from Belthangady</p>
+        <p style={{ color:'rgba(255,255,255,0.6)', fontSize:'1rem', animation:'slideUp 0.5s 0.2s both' }}>Pure, natural and sourced directly from farms</p>
       </div>
 
       {/* Sticky Filter Bar */}
