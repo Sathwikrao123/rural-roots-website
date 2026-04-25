@@ -48,9 +48,9 @@ export default function Home() {
   ];
 
   const products = [
-    { emoji:'🍯', name:'Pure Honey',   desc:'Wild forest honey from Belthangady', price:'from ₹299', bg:'linear-gradient(145deg,#fff8e1,#ffe082 60%,#ffc107)', img:'/honey.png' },
-    { emoji:'🫙', name:'Coconut Oil',  desc:'Cold pressed virgin coconut oil',    price:'from ₹299', bg:'linear-gradient(145deg,#f1f8e9,#dcedc8 60%,#aed581)', img:'/coconut-oil.png' },
-    { emoji:'🌶', name:'Black Pepper', desc:'Sun-dried farm fresh black pepper',  price:'from ₹599', bg:'linear-gradient(145deg,#efebe9,#d7ccc8 60%,#bcaaa4)', img:'/pepper.png' },
+    { emoji:'🍯', name:'Pure Honey',   desc:'Pure honey', price:'from ₹299', bg:'linear-gradient(145deg,#fff8e1,#ffe082 60%,#ffc107)', img:'/honey.png' },
+    { emoji:'🫙', name:'Coconut Oil',  desc:'Cold pressed  coconut oil',    price:'from ₹299', bg:'linear-gradient(145deg,#f1f8e9,#dcedc8 60%,#aed581)', img:'/coconut-oil.png' },
+    { emoji:'🌶', name:'Black Pepper', desc:'Sun-dried black pepper',  price:'from ₹599', bg:'linear-gradient(145deg,#efebe9,#d7ccc8 60%,#bcaaa4)', img:'/pepper.png' },
   ];
 
   return (
@@ -82,7 +82,7 @@ export default function Home() {
             </h1>
 
             <p style={{ fontSize:'clamp(0.9rem,2.5vw,1rem)', color:'rgba(255,255,255,.62)', lineHeight:1.85, maxWidth:420, marginBottom:32 }}>
-              Wild honey, cold-pressed coconut oil and black pepper — sourced directly from Belthangady. <strong style={{ color:'rgba(255,255,255,.9)', fontWeight:500 }}>No middlemen. No chemicals.</strong>
+              Pure honey, cold-pressed coconut oil and black pepper — sourced directly from village. <strong style={{ color:'rgba(255,255,255,.9)', fontWeight:500 }}>No middlemen. No chemicals.</strong>
             </p>
 
             <div className="hero-cta" style={{ display:'flex', gap:12, flexWrap:'wrap', marginBottom:36 }}>
