@@ -128,7 +128,7 @@ export default function Home() {
                   <img src="/honey.png" alt="Pure Honey" style={{ width:'75%', height:'100%', objectFit:'contain', filter:'drop-shadow(0 16px 32px rgba(0,0,0,.3))' }} />
                 </div>
                 <p style={{ fontFamily:'var(--font-head)', color:'white', fontSize:'1.1rem', marginBottom:4 }}>Pure Honey</p>
-                <p style={{ fontSize:10, color:'rgba(255,255,255,.4)', letterSpacing:'.1em', textTransform:'uppercase', marginBottom:10 }}>Belthangady · Karnataka</p>
+                <p style={{ fontSize:10, color:'rgba(255,255,255,.4)', letterSpacing:'.1em', textTransform:'uppercase', marginBottom:10 }}>Karnataka</p>
                 <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
                   <span style={{ fontFamily:'var(--font-head)', color:'#b8832a', fontSize:'1.25rem' }}>₹299</span>
                   <span style={{ fontSize:10, color:'rgba(255,255,255,.35)', letterSpacing:'.08em' }}>500g</span>
@@ -257,7 +257,7 @@ export default function Home() {
           <div className="sr-l">
             <p style={{ fontSize:10, letterSpacing:'.22em', textTransform:'uppercase', color:'var(--gold,#b8832a)', marginBottom:14 }}>Our Story</p>
             <h2 style={{ fontFamily:'var(--font-head)', fontSize:'clamp(1.8rem,3.5vw,2.8rem)', fontWeight:400, color:'var(--ink,#1c1410)', lineHeight:1.15, marginBottom:18 }}>
-              Rooted in the Forests<br /><em>of Belthangady</em>
+              Rooted in the farms<br /><em>of Karnataka</em>
             </h2>
             <div style={{ width:40, height:2, background:'var(--gold,#b8832a)', marginBottom:20 }} />
             <p style={{ fontSize:'clamp(0.9rem,2.5vw,1rem)', color:'var(--clay,#8c6848)', lineHeight:1.85, marginBottom:14 }}>
@@ -326,7 +326,7 @@ export default function Home() {
         <div className="footer-inner" style={{ maxWidth:1200, margin:'0 auto', display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:16 }}>
           <div>
             <p style={{ fontFamily:'var(--font-head)', fontSize:'1.05rem', color:'var(--linen,#f2e8d8)', letterSpacing:'.05em', marginBottom:3 }}>Rural Roots</p>
-            <p style={{ fontSize:10, color:'rgba(200,168,124,.35)', letterSpacing:'.12em', textTransform:'uppercase' }}>Belthangady · Karnataka</p>
+            <p style={{ fontSize:10, color:'rgba(200,168,124,.35)', letterSpacing:'.12em', textTransform:'uppercase' }}>Karnataka</p>
           </div>
           <div className="footer-links" style={{ display:'flex', gap:24 }}>
             {[['/','/products','/#about','/#contact'],['Home','Products','About','Contact']].reduce((acc,_,i,arr) => i===0 ? arr[0].map((href,j) => (
